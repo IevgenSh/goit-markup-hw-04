@@ -413,14 +413,12 @@ img {
   border-radius: 4px;
 }
 
+.clients-link:hover,
+.clients-link:focus,
 .clients-link:hover .clients-icon,
 .clients-link:focus .clients-icon {
   fill: var(--accent-color);
-}
-
-.clients-link:hover,
-.clients-link:focus {
-  border: solid 1px var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .clients-item:not(:last-child) {
